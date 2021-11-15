@@ -1,10 +1,11 @@
-<div style="display: flex;">
-<img src="https://avatars.githubusercontent.com/u/94321387?s=400&u=e5bd5efb4f3ee9c8df1907714d3d1c8ac849a37e&v=4" alt="logo" style="width: 180px; margin: auto auto;" />
-</div>
+<div style="align: center;">
+<img src="https://avatars.githubusercontent.com/u/94321387?s=400&u=e5bd5efb4f3ee9c8df1907714d3d1c8ac849a37e&v=4" alt="logo" style="width: 180px;" />
 
-<h1 style="text-align: center;">FindCollege</h1>
-<p style="text-align: center;">
-Find your best school without worrying about how to pay for it.</p>
+# FindCollege
+
+Find your best school without worrying about how to pay for it.
+
+</div>
 
 ## Environment Variables
 
@@ -64,7 +65,7 @@ Live demo on [FindCollege.us](https://FindCollege.us/)
 
 ## License
 
-[GPL v3.0](https://choosealicense.com/licenses/gpl-3.0/)
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Contributing
 
