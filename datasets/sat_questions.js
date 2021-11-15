@@ -1,6 +1,7 @@
 const questions = {
   math: [
     {
+      id: "m_1",
       question:
         "The mean number of students per classroom, y, at Central High School can be estimated using the equation y = 0.8636x + 27.227, where x represents the number of years since 2004 and x is less or equal than 10. Which of the following statements is the best interpretation of the number 0.8636 in the context of this problem?",
       answers: {
@@ -13,6 +14,7 @@ const questions = {
       difficulty: "easy",
     },
     {
+      id: "m_2",
       question: "If a^2 + 14a = 51 and a > 0, what is the value of a+7?",
       answers: {
         a: "100",
@@ -24,6 +26,7 @@ const questions = {
       difficulty: "easy",
     },
     {
+      id: "m_3",
       question:
         "The graph of y = (2x - 4)(x-4) is a parabola in the xy-plane. In which of the following equivalent equations do the x- and y-coordinates of the vertex of the parabola appear as constants or coefficients?",
       answers: {
@@ -36,6 +39,7 @@ const questions = {
       difficulty: "hard",
     },
     {
+      id: "m_3",
       question: "Which of the following is equal to (14 - 2i)(7 - 12i)? ",
       answers: {
         a: "74",
@@ -47,6 +51,7 @@ const questions = {
       difficulty: "hard",
     },
     {
+      id: "m_4",
       question: "If 1/2x + 1/3y = 4, what is the value of 3x + 2y?",
       answers: {
         a: "24",
@@ -58,6 +63,7 @@ const questions = {
       difficulty: "easy",
     },
     {
+      id: "m_5",
       question: "Which of the following is equal to sin(π/5)",
       answers: {
         a: "-cos(π/5)",
@@ -69,6 +75,7 @@ const questions = {
       difficulty: "hard",
     },
     {
+      id: "m_6",
       question:
         "x^2 + y^2 - 6x + 8y = 144. Given this equation, which represents a circle in the xy-axis, what is the diameter of the circle?",
       answers: {
@@ -83,6 +90,7 @@ const questions = {
   ],
   writing: [
     {
+      id: "w_1",
       question:
         "A subway system is expanded to provide service to a growing suburb. A bike-sharing program is adopted to encourage nonmotorized transportation. *To alleviate rush hour traffic jams in a congested downtown area, stoplight timing is coordinated*. Pick the option that maintains the best sentence pattern when replacing the text surrounded by * in the previous paragraph.",
       answers: {
@@ -95,6 +103,7 @@ const questions = {
       difficulty: "easy",
     },
     {
+      id: "w_2",
       question:
         "When any one of these changes *occur, it is* likely the result of careful analysis conducted by transportation planners. Pick the option that maintains the best sentence pattern when replacing the text surrounded by * in the previous paragraph.",
       answers: {
@@ -107,6 +116,7 @@ const questions = {
       difficulty: "hard",
     },
     {
+      id: "w_3",
       question:
         "The work of transportation planners generally includes evaluating current transportation needs, assessing the effectiveness of existing facilities, and improving those facilities or *they design* new ones. Pick the option that maintains the best sentence pattern when replacing the text surrounded by * in the previous paragraph.",
       answers: {
@@ -119,6 +129,7 @@ const questions = {
       difficulty: "easy",
     },
     {
+      id: "w_4",
       question:
         "Most transportation planners work in or near cities, but some are employed in rural areas. Pick the option that has the most effective transition from the information in the previous sentence.",
       answers: {
@@ -131,6 +142,7 @@ const questions = {
       difficulty: "easy",
     },
     {
+      id: "w_5",
       question:
         "The transportation *planner’s job,* might involve conducting a traffic count to determine the daily number of vehicles traveling on the road to the new factory. Pick the option that maintains the best sentence pattern when replacing the text surrounded by * in the previous paragraph.",
       answers: {
@@ -143,6 +155,7 @@ const questions = {
       difficulty: "hard",
     },
     {
+      id: "w_6",
       question:
         "*People who pursue careers in transportation planning* have a wide variety of educational backgrounds. Pick the option that maintains the best sentence pattern when replacing the text surrounded by * in the previous paragraph.",
       answers: {
@@ -155,6 +168,7 @@ const questions = {
       difficulty: "easy",
     },
     {
+      id: "w_7",
       question:
         "A crowd of admiring spectators *watched* as Kingman squeezes dollops of paint from several tubes into a tin watercolor. Pick the option that maintains the best sentence pattern when replacing the text surrounded by * in the previous paragraph.",
       answers: {
@@ -167,6 +181,7 @@ const questions = {
       difficulty: "easy",
     },
     {
+      id: "w_8",
       question:
         "The name Kingman was selected for its two *parts, “king” and “man”*. Pick the option that maintains the best sentence pattern when replacing the text surrounded by * in the previous paragraph.",
       answers: {
@@ -180,3 +195,5 @@ const questions = {
     },
   ],
 };
+
+export default questions;
