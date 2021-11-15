@@ -1,5 +1,5 @@
 const handler = (req, res) => {
-  res.status(200).json({ message: "Hello world!" });
+  res.status(200).json("Hello world!");
 };
 
 export default handler;
