@@ -19,15 +19,15 @@ const handler = (req, res) => {
         description: "get all questions",
       },
       {
-        path: "/api/question/math",
+        path: "/api/questions/math",
         description: "get all math questions",
       },
       {
-        path: "/api/question/writing",
+        path: "/api/questions/writing",
         description: "get all writing questions",
       },
       {
-        path: "/api/question/[id]",
+        path: "/api/questions/[id]",
         description: "get an especific question with the id",
       },
     ],
