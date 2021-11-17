@@ -13,3 +13,4 @@ vscode:
     - bradlc.vscode-tailwindcss
     - pkief.material-icon-theme
     - vivaxy.vscode-conventional-commits
+    - prisma.prisma-insider
