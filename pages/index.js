@@ -1,12 +1,12 @@
-import Link from "next/link";
+import Hero from "components/Hero";
+import Features from "components/Features";
 
 const Landing = () => {
   return (
-    <h1>
-      <Link href="/api/docs">
-        <a>Check API</a>
-      </Link>
-    </h1>
+    <>
+      <Hero />
+      <Features />
+    </>
   );
 };
 
